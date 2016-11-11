@@ -35,8 +35,8 @@ class DragPinchManager implements GestureDetector.OnGestureListener, GestureDete
     private PDFView pdfView;
     private AnimationManager animationManager;
 
-    private GestureDetector gestureDetector;
-    private ScaleGestureDetector scaleGestureDetector;
+    protected GestureDetector gestureDetector;
+    protected ScaleGestureDetector scaleGestureDetector;
 
     private boolean isSwipeEnabled;
 
