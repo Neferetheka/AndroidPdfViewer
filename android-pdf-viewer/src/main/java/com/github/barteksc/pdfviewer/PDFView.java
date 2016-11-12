@@ -100,7 +100,7 @@ public class PDFView extends RelativeLayout {
     /**
      * Animation manager manage all offset and zoom animation
      */
-    private AnimationManager animationManager;
+    protected AnimationManager animationManager;
 
     /**
      * Drag manager manage all touch events
